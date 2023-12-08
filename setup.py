@@ -15,5 +15,5 @@ setup(
     ],
     packages=find_namespace_packages(),
 
-    entry_points={'console_scripts':[f'clean_folders=clean_folder.sort_folder:run']}
+    entry_points={'console_scripts':[f'clean-folders=clean_folder.sort_folder:run']}
 )
